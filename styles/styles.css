@@ -1,28 +1,68 @@
-nav{
+
+nav {
     background-color: steelblue;
     padding: 10px;
-
+    text-align: center; 
 }
+
 
 nav a {
     color: white;
-    display: block;
-    padding: 20px;
+    display: inline-block; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    margin: 5px;
 }
+
+
+nav a:hover {
+    background-color: #4682B4; 
+    border-radius: 5px; 
+}
+
 
 h1 {
     color: steelblue;
+    text-align: center; 
+    font-size: 2em; 
 }
+
 
 img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 10px gray; 
 }
+
 
 p {
     padding: 10px;
+    line-height: 1.6; 
 }
 
+
+aside {
+    width: 300px;
+    margin: 20px auto; 
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
