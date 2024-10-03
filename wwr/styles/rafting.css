@@ -1,0 +1,140 @@
+/* Definición de colores principales */
+:root {
+    --primary-color: #d3b1ce;
+    --secondary-color: #d9bbf9;
+    --accent1-color: #bba3aa;
+    --accent2-color: #B5A2D4;
+}
+
+/* Estilos Globales */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Fondo general blanco */
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: var(--primary-color);
+    padding: 20px;
+    text-align: center;
+}
+
+header img.logo {
+    max-width: 150px;
+}
+
+/* Navegación */
+nav {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Sección Hero */
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3em;
+    color: #ffffff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+/* Secciones */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid var(--primary-color);
+    background-color: #ffffff; /* Fondo blanco para cada sección */
+}
+
+section h2 {
+    color: var(--accent1-color);
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+/* Galería */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery img {
+    width: 30%;
+    margin: 10px;
+}
+
+/* Pie de Página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+footer nav.sociallinks {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .sociallinks a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .sociallinks img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+footer .sociallinks a:hover img {
+    transform: scale(1.2);
+}
