@@ -1,4 +1,4 @@
-/* Definición de colores principales */
+
 :root {
     --primary-color: #d3b1ce;
     --secondary-color: #d9bbf9;
@@ -6,16 +6,16 @@
     --accent2-color: #B5A2D4;
 }
 
-/* Estilos Globales */
+
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #ffffff; /* Fondo general blanco */
+    background-color: #ffffff; 
 }
 
-/* Estilo del encabezado */
+
 header {
     background-color: var(--primary-color);
     padding: 20px;
@@ -26,7 +26,7 @@ header img.logo {
     max-width: 150px;
 }
 
-/* Navegación */
+
 nav {
     background-color: var(--primary-color);
     text-align: center;
@@ -46,7 +46,7 @@ nav a:hover {
     background-color: var(--secondary-color);
 }
 
-/* Sección Hero */
+
 .hero {
     position: relative;
     text-align: center;
@@ -80,7 +80,7 @@ nav a:hover {
     width: 250px;
 }
 
-/* Secciones */
+
 section {
     margin: 20px 0;
     padding: 20px;
@@ -98,7 +98,7 @@ section img {
     margin: 10px 0;
 }
 
-/* Galería */
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -110,7 +110,7 @@ section img {
     margin: 10px;
 }
 
-/* Pie de Página */
+
 footer {
     text-align: center;
     padding: 20px;
