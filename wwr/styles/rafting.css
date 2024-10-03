@@ -1,5 +1,4 @@
 /* Paleta de colores utilizada: https://coolors.co/9188ae-b5a2d4-d9bbf9-d3b1ce-d0acb8-cca7a2-c4a5a6-bba3aa-7871aa-636297 */
-
 :root {
     --primary-color: #d3b1ce;
     --secondary-color: #d9bbf9;
@@ -7,16 +6,22 @@
     --accent2-color: #B5A2D4;
 }
 
-
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #ffffff; 
+    background-color: #ffffff; /* Fondo general blanco */
 }
 
+/* Clase personalizada para Anton SC */
+.anton-sc-regular {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
+/* Estilo del encabezado */
 header {
     background-color: var(--primary-color);
     padding: 20px;
@@ -27,7 +32,7 @@ header img.logo {
     max-width: 150px;
 }
 
-
+/* Navegación */
 nav {
     background-color: var(--primary-color);
     text-align: center;
@@ -47,7 +52,7 @@ nav a:hover {
     background-color: var(--secondary-color);
 }
 
-
+/* Sección Hero */
 .hero {
     position: relative;
     text-align: center;
@@ -81,7 +86,7 @@ nav a:hover {
     width: 250px;
 }
 
-
+/* Secciones */
 section {
     margin: 20px 0;
     padding: 20px;
@@ -99,7 +104,7 @@ section img {
     margin: 10px 0;
 }
 
-
+/* Galería */
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -111,7 +116,7 @@ section img {
     margin: 10px;
 }
 
-
+/* Pie de Página */
 footer {
     text-align: center;
     padding: 20px;
