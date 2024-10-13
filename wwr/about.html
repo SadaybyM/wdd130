@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Rafting project - RaftX.">
     <meta name="author" content="Sadayby Herra">
-
     <!-- Paleta de colores utilizada: https://coolors.co/b5a2d4-d9bbf9-d3b1ce-bba3aa -->
     <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,49 +13,67 @@
     <title>Sadayby Herra | WDD 130 | RaftX Website</title>
 </head>
 <body>
-    <header>
+   
+    <header class="header-grid">
         <img src="img/logo2_200.png" alt="Logotipo de la compañía de rafting" class="logo">
+        <h1 class="anton-sc-regular">RaftX - Explore the Rapids</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="wwr/">Rafting Website</a>
+            <a href="wwr/site-plan-rafting.html">Rafting Site Plan</a>
+            <a href="week02/box-model.html">Box Model</a>
+            <a href="week02/holygrail.html">Holy Grail Layout Example</a> 
+        </nav>
     </header>
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="wwr/">Rafting Website</a>
-        <a href="wwr/site-plan-rafting.html">Rafting Site Plan</a>
-        <a href="week02/box-model.html">Box Model</a>
-        <a href="week02/holygrail.html">Holy Grail Layout Example</a> 
-    </nav>
-
     <main>
+        
         <div class="hero">
-            <img src="img/rafting30_600.jpg" alt="Aventura de rafting">
-            <h1 class="anton-sc-regular">RaftX - Explore the Rapids</h1>
+            <img src="img/rafting30_600.jpg" alt="Aventura de rafting" class="hero-image">
             <article>
-                <h2> Rafting is life </h2> 
-                <img src="img/rafting21_600.png" alt="Empleado feliz participando en actividades de rafting">
+                <h2>White Water Rafting</h2>
                 <p>We provide exciting whitewater rafting experiences. Our mission is to offer unforgettable adventures with utmost safety and professionalism.</p>
             </article>
         </div>
 
-        <section>
+        
+        <section class="history">
             <h2>History</h2>
-            <p>Founded in 1985 by a group of passionate explorers and river enthusiasts, RaftX was born from a desire to share the beauty and thrill of rafting with the world.</p>
-            <p>What started as a small family-owned business guiding weekend adventurers through the rugged rapids of the Colorado River has now grown into a global leader in the rafting industry.</p>
-            <p>With a deep love for the outdoors and a commitment to excellence, RaftX has expanded its operations from the canyons of North America to the untamed rivers of South America, Europe, and beyond.</p>
-            <p>Our goal has always been simple: to provide a safe and exhilarating rafting experience that connects people with nature and pushes the limits of adventure.</p>
+            <div class="history-content">
+                <img src="img/rafting21_600.png" alt="Employee rafting" class="history-img">
+                <p>Founded in 1985 by a group of passionate explorers and river enthusiasts, RaftX was born from a desire to share the beauty and thrill of rafting with the world. Our goal has always been simple: to provide a safe and exhilarating rafting experience that connects people with nature and pushes the limits of adventure.</p>
+            </div>
         </section>
 
-        <section>
+       
+        <section class="adventure">
             <h2>Adventure Awaits You!</h2>
             <div class="gallery">
-                <img src="img/rafting52_600.jpg" alt="Rafting en aguas bravas1">
-                <img src="img/rafting65_600.jpg" alt="Rafting en aguas bravas2">
-                <img src="img/rafting17_600.jpg" alt="Rafting en aguas bravas3">
-                <img src="img/rafting14_600.jpg" alt="Rafting en aguas bravas4">
-                <img src="img/rafting14_600.jpg" alt="Rafting en aguas bravas5">
+                <figure>
+                    <img src="img/rafting52_600.jpg" alt="Rafting en aguas bravas1">
+                    <figcaption>The Devil's Teeth</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/rafting65_600.jpg" alt="Rafting en aguas bravas2">
+                    <figcaption>Big Mallard</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/rafting17_600.jpg" alt="Rafting en aguas bravas3">
+                    <figcaption>Half Day Adventure</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/rafting14_600.jpg" alt="Rafting en aguas bravas4">
+                    <figcaption>Sunset Ride</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/rafting14_600.jpg" alt="Rafting en aguas bravas5">
+                    <figcaption>Deep River Dive</figcaption>
+                </figure>
             </div>
         </section>
     </main>
 
+    
     <footer>
         <p>©2024 Sadayby Herra</p>
         <nav class="sociallinks">

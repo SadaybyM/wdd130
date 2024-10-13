@@ -11,7 +11,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #ffffff; 
+    background-color: #D3B1CE; 
 }
 
 
@@ -23,9 +23,16 @@ body {
 
 
 header {
-    background-color: var(--primary-color);
+    background-color: white;
     padding: 20px;
     text-align: center;
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 10px 20px;
 }
 
 header img.logo {
@@ -34,22 +41,22 @@ header img.logo {
 
 
 nav {
-    background-color: var(--primary-color);
+    background-color: white;
     text-align: center;
     padding: 10px 0;
 }
 
 nav a {
-    color: white;
+    color: black;
     display: inline-block;
-    padding: 10px 15px;
+    padding: 15px 15px;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
 }
 
 nav a:hover {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 
@@ -96,27 +103,35 @@ section {
 
 section h2 {
     color: var(--accent1-color);
+    align-content: left;
 }
 
 section img {
-    width: 100%;
+    width: 80%;
     height: auto;
     margin: 10px 0;
 }
 
-/* Galería */
+
 .gallery {
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    justify-content: space-around;
+    gap: 20px;
+}
+
+.gallery figure {
+    text-align: center;
+    width: 20%;
 }
 
 .gallery img {
-    width: 30%;
-    margin: 10px;
+    width: 100%;
+    height: auto;
 }
 
-/* Pie de Página */
+
+
 footer {
     text-align: center;
     padding: 20px;
@@ -143,4 +158,18 @@ footer .sociallinks img {
 
 footer .sociallinks a:hover img {
     transform: scale(1.2);
+}
+
+
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+section .p {
+    align-content: last baseline;
 }
