@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RaftX - Contact Us">
+    <meta name="author" content="Sadayby Herra">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <title>Contact Us | RaftX</title>
+</head>
+<body>
+    <header class="header-grid">
+        <img src="img/logo2_200.png" alt="RaftX Logo" class="logo">
+        <h1 class="anton-sc-regular">RaftX - Contact Us</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="wwr/">Rafting Website</a>
+            <a href="wwr/site-plan-rafting.html">Rafting Site Plan</a>
+            <a href="week02/box-model.html">Box Model</a>
+            <a href="week02/holygrail.html">Holy Grail Layout Example</a>
+            <a href="wwr\about.html">Rafting pages</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-info">
+            <h2>Contact Informations</h2>
+            <p>Address: C. la piña, 41000, Dominican Republic, Jarabacoa </p>
+            <p>Phone: (809) 997-1104</p>
+            <p>Email: rafting_94@raftx.com</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15080.985179646399!2d-70.68205844458011!3d19.0968481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srafting!5e0!3m2!1ses!2sdo!4v1729024918400!5m2!1ses!2sdo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="team">
+            <h2>Meet Our Team</h2>
+            <div class="gallery">
+                <figure>
+                    <img src="img/sara.jpg" alt="Sara">
+                    <figcaption>Sara Doe - CEO</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/Jaden.jpg" alt="Jaden">
+                    <figcaption>Jaden Smith - Operations Manager</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/team-beginer.jpg" alt="Teams-Begining">
+                    <figcaption>Emily, Blake and george - Guides</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="/submit_contact" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                
+                <label>Purpose of Message:</label><br>
+                <input type="radio" id="general" name="purpose" value="general">
+                <label for="general">General Inquiry</label><br>
+                <input type="radio" id="booking" name="purpose" value="booking">
+                <label for="booking">Booking Question</label><br>
+                <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                <label for="suggestion">Website Suggestion</label><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" required></textarea><br>
+                
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Subscribe me to the monthly newsletter</label><br>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>©2024 Sadayby Herra</p>
+        <nav class="sociallinks">
+            <a href="https://www.facebook.com/RaftX" target="_blank">
+                <img src="img/734399_facebook_media_online_social_icon.svg" alt="Facebook">
+            </a>
+            <a href="https://www.twitter.com/RaftX" target="_blank">
+                <img src="img/734377_media_online_social_twitter_icon.svg" alt="Twitter">
+            </a>
+            <a href="https://www.youtube.com/RaftX" target="_blank">
+                <img src="img/734361_media_online_social_youtube_icon.svg" alt="YouTube">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
