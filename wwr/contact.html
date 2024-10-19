@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="RaftX - Contact Us">
     <meta name="author" content="Sadayby Herra">
+    <!-- Paleta de colores utilizada: https://coolors.co/b5a2d4-d9bbf9-d3b1ce-bba3aa -->
     <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,17 +22,18 @@
             <a href="wwr/site-plan-rafting.html">Rafting Site Plan</a>
             <a href="week02/box-model.html">Box Model</a>
             <a href="week02/holygrail.html">Holy Grail Layout Example</a>
-            <a href="wwr\about.html">Rafting pages</a>
+            <a href="wwr/about.html">Rafting Pages</a>
         </nav>
     </header>
 
     <main>
         <section class="contact-info">
-            <h2>Contact Informations</h2>
-            <p>Address: C. la piña, 41000, Dominican Republic, Jarabacoa </p>
-            <p>Phone: (809) 997-1104</p>
-            <p>Email: rafting_94@raftx.com</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15080.985179646399!2d-70.68205844458011!3d19.0968481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srafting!5e0!3m2!1ses!2sdo!4v1729024918400!5m2!1ses!2sdo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h2>Contact Information</h2>
+            <p><strong>Address:</strong> C. la piña, 41000, Jarabacoa, Dominican Republic</p>
+            <p><strong>Phone:</strong> (809) 997-1104</p>
+            <p><strong>Email:</strong> rafting_94@raftx.com</p>
+            <!-- Asegúrate de que el iframe del mapa tenga el estilo adecuado -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15080.985179646399!2d-70.68205844458011!3d19.0968481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srafting!5e0!3m2!1ses!2sdo!4v1729024918400!5m2!1ses!2sdo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </section>
 
         <section class="team">
@@ -46,8 +48,8 @@
                     <figcaption>Jaden Smith - Operations Manager</figcaption>
                 </figure>
                 <figure>
-                    <img src="img/team-beginer.jpg" alt="Teams-Begining">
-                    <figcaption>Emily, Blake and george - Guides</figcaption>
+                    <img src="img/team-beginer.jpg" alt="Our Guides">
+                    <figcaption>Emily, Blake, and George - Guides</figcaption>
                 </figure>
             </div>
         </section>
@@ -55,11 +57,11 @@
         <section class="contact-form">
             <h2>Contact Us</h2>
             <form action="/submit_contact" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required><br>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
                 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
                 
                 <label>Purpose of Message:</label><br>
                 <input type="radio" id="general" name="purpose" value="general">
@@ -67,13 +69,13 @@
                 <input type="radio" id="booking" name="purpose" value="booking">
                 <label for="booking">Booking Question</label><br>
                 <input type="radio" id="suggestion" name="purpose" value="suggestion">
-                <label for="suggestion">Website Suggestion</label><br>
+                <label for="suggestion">Website Suggestion</label><br><br>
                 
                 <label for="message">Message:</label><br>
-                <textarea id="message" name="message" required></textarea><br>
+                <textarea id="message" name="message" required></textarea><br><br>
                 
                 <input type="checkbox" id="newsletter" name="newsletter">
-                <label for="newsletter">Subscribe me to the monthly newsletter</label><br>
+                <label for="newsletter">Subscribe me to the monthly newsletter</label><br><br>
                 
                 <button type="submit">Submit</button>
             </form>
