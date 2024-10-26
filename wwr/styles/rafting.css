@@ -14,13 +14,11 @@ body {
     background-color: #D3B1CE; 
 }
 
-
 .anton-sc-regular {
     font-family: "Anton SC", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-
 
 header {
     background-color: white;
@@ -38,7 +36,6 @@ header {
 header img.logo {
     max-width: 150px;
 }
-
 
 nav {
     background-color: white;
@@ -58,7 +55,6 @@ nav a {
 nav a:hover {
     background-color: var(--primary-color);
 }
-
 
 .hero {
     position: relative;
@@ -93,7 +89,6 @@ nav a:hover {
     width: 250px;
 }
 
-
 section {
     margin: 20px 0;
     padding: 20px;
@@ -103,7 +98,7 @@ section {
 
 section h2 {
     color: var(--accent1-color);
-    align-content: left;
+    text-align: left;
 }
 
 section img {
@@ -111,7 +106,6 @@ section img {
     height: auto;
     margin: 10px 0;
 }
-
 
 .gallery {
     display: flex;
@@ -129,8 +123,6 @@ section img {
     width: 100%;
     height: auto;
 }
-
-
 
 footer {
     text-align: center;
@@ -160,16 +152,9 @@ footer .sociallinks a:hover img {
     transform: scale(1.2);
 }
 
-
-
 .history {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 20px;
     align-items: center;
-    
-}
-
-section .p {
-    align-content: last baseline;
 }
