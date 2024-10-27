@@ -1,4 +1,6 @@
 /* Paleta de colores utilizada: https://coolors.co/b5a2d4-d9bbf9-d3b1ce-bba3aa */
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Roboto:wght@100;400&display=swap');
+
 :root {
     --primary-color: #d3b1ce;
     --secondary-color: #d9bbf9;
@@ -197,7 +199,9 @@ footer .sociallinks a:hover img {
     margin-bottom: 10px;
 }
 
-.gallery img {
-    width: 60%; /* Set each image to 60% of the container width */
+.small-image {
+    width: 40% !important; /* Force 40% width */
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
