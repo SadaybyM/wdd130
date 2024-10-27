@@ -196,3 +196,8 @@ footer .sociallinks a:hover img {
     height: auto;
     margin-bottom: 10px;
 }
+
+.gallery img {
+    width: 60%; /* Set each image to 60% of the container width */
+    height: auto;
+}
