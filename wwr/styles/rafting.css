@@ -161,3 +161,38 @@ footer .sociallinks a:hover img {
     gap: 20px;
     align-items: center;
 }
+
+.info-grid {
+    display: flex;
+    justify-content: space-around; /* Distribuye el espacio de manera uniforme */
+    gap: 20px; /* Añade espacio entre las imágenes */
+    margin-top: 20px;
+}
+
+.info-grid .grid-item {
+    text-align: center;
+    flex: 1; /* Distribuye las imágenes de forma equitativa */
+}
+
+.info-grid .grid-item img {
+    width: 400px; /* Tamaño ajustado para que las imágenes sean pequeñas */
+    height: auto;
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.trips-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.trips-grid .trip {
+    width: 50%; /* Sets each trip container to 50% width */
+    text-align: center;
+}
+
+.trips-grid .trip img {
+    width: 100%; /* Image takes the full width of the container */
+    height: auto;
+    margin-bottom: 10px;
+}

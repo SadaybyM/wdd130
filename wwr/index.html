@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore RaftX for thrilling white water rafting adventures.">
+    <meta name="description" content="RaftX - Explore the thrill of whitewater rafting">
     <meta name="author" content="Sadayby Herra">
     <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
-    <title>Home | RaftX</title>
+    <title>RaftX - Home</title>
 </head>
 <body>
     <header class="header-grid">
@@ -17,45 +17,43 @@
         <h1 class="anton-sc-regular">RaftX - Explore the Rapids</h1>
         <nav>
             <a href="index.html">Home</a>
-            <a href="wwr/">Rafting Website</a>
-            <a href="wwr/site-plan-rafting.html">Rafting Site Plan</a>
-            <a href="wwr/about.html">About Us</a>
-            <a href="trips.html">Trips & Adventures</a>
+            <a href="trips.html">Trips</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
         </nav>
     </header>
 
     <main>
         <section class="hero">
-            <img src="img/hero_rafting.jpg" alt="Rafting Adventure" class="hero-image">
-            <h1>Experience the Thrill of White Water Rafting!</h1>
-            <article>
-                <p>Join RaftX for an unforgettable adventure on the rapids. Perfect for thrill-seekers and nature enthusiasts alike!</p>
-                <a href="trips.html" class="cta-button">Discover Our Trips</a>
-            </article>
+            <img src="img/heroe.jpeg" alt="Exciting whitewater rafting adventure">
+            <h1>Join the Adventure of a Lifetime!</h1>
         </section>
 
-        <section class="newsletter">
+        <section class="newsletter-signup">
             <h2>Stay Updated!</h2>
-            <form action="/subscribe" method="post">
+            <p>Sign up for our newsletter to receive the latest rafting news and offers.</p>
+            <form action="/submit_newsletter" method="post">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required><br><br>
+                <input type="text" id="name" name="name" required>
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br><br>
-                <button type="submit">Sign Up for Newsletter</button>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Subscribe</button>
             </form>
         </section>
 
-        <section class="about">
-            <h2>Why Choose RaftX?</h2>
-            <div class="grid-layout">
-                <div>
-                    <img src="img/adventure1.jpg" alt="Thrilling Rapids">
-                    <p>Experience the adrenaline rush of white water rafting with experienced guides and top-notch safety equipment.</p>
-                </div>
-                <div>
-                    <img src="img/scenic.jpg" alt="Scenic Views">
-                    <p>Explore scenic river views and connect with nature like never before. Each journey is unique and unforgettable.</p>
-                </div>
+        <section class="call-to-action">
+            <h2>Ready to Ride the Rapids?</h2>
+            <a href="trips.html" class="cta-button">View Our Trips</a>
+        </section>
+
+        <section class="info-grid">
+            <div class="grid-item">
+                <img src="img/Thrilling.jpg" alt="Thrilling rapids">
+                <p>Experience the thrill of whitewater rafting with our expert guides.</p>
+            </div>
+            <div class="grid-item">
+                <img src="img/river.jpg" alt="Beautiful river view">
+                <p>Explore breathtaking scenery and powerful rapids with RaftX.</p>
             </div>
         </section>
     </main>
