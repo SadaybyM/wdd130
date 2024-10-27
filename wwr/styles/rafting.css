@@ -28,7 +28,6 @@ header {
     color: #000000;
 }
 
-/* Eliminamos propiedades duplicadas y organizamos el diseño */
 .header-grid, .gallery, .info-grid, .trips-grid {
     display: flex;
     justify-content: space-around;
@@ -53,7 +52,6 @@ nav a {
     text-decoration: none;
 }
 
-/* Aplicamos estilos de imagen y espaciado en lugar de redefinir propiedades */
 .hero img, .gallery img, .info-grid img, .trips-grid img, .small-image {
     width: 80%;
     height: auto;
