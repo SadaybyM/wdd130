@@ -12,6 +12,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #D3B1CE; 
+    color: #000000; /* Color de primer plano */
 }
 
 .anton-sc-regular {
@@ -24,6 +25,7 @@ header {
     background-color: white;
     padding: 20px;
     text-align: center;
+    color: #000000;
 }
 
 .header-grid {
@@ -94,6 +96,7 @@ section {
     padding: 20px;
     border: 1px solid var(--primary-color);
     background-color: #ffffff; 
+    color: #000000;
 }
 
 section h2 {
